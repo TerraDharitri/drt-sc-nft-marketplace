@@ -1,0 +1,22 @@
+[package]
+name = "dcdt-nft-marketplace"
+version = "0.0.0"
+authors = ["contact@dharitri.org"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/marketplace_main.rs"
+
+[dependencies.numbat-wasm]
+ version = "0.0.19"
+# path = "/home/dugong/Desktop/teja-work/my_works/rs-sdks/drt-rs-sdk-0.38.0/numbat-wasm"
+
+
+[dependencies.numbat-wasm-modules]
+ version = "0.0.19"
+# path = "/home/dugong/Desktop/teja-work/my_works/rs-sdks/drt-rs-sdk-0.38.0/numbat-wasm-modules"
+
+[dev-dependencies.numbat-wasm-debug]
+ version = "0.0.19"
+# path = "/home/dugong/Desktop/teja-work/my_works/rs-sdks/drt-rs-sdk-0.38.0/numbat-wasm-debug"

@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "dcdt-nft-marketplace",
+  "dcdt-nft-marketplace/meta",
+  "seller-contract-mock",
+  "seller-contract-mock/meta",
+]
